@@ -51,5 +51,5 @@ To stop music and connection, the app needs to be killed. This can be done by cl
 
 <h4 align="center"> The apk file is available in the repo to try out the app.</h4>
  
-              <p align="center"> ------------------------------------------ xxx ------------------------------------------ </p>
+             ------------------------------------------ xxx ------------------------------------------ 
 
