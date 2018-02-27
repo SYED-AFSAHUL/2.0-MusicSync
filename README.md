@@ -1,6 +1,6 @@
                                       
-#Project Report
-##App Name – Music Sender 2
+# Project Report
+## App Name – Music Sender 2
 
 
 MusicSender2 uses wifi direct to send data from a server device to client devices and tries to synchronize the audio playing in them. The implementation of the app requires sending files of size as large as 10 to 14 MB. Hence, due to slow data transfer rate and connectivity problems, Bluetooth isn’t the best way to implement communication for this application.
