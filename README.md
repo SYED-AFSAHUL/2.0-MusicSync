@@ -25,7 +25,7 @@ The application contains 2 major UI Component:
 
   Devices should start playing the audio after 10 seconds.
 
-Alternatively, if audio needs to be played on a single device then click on the audio from music list that needs to be played. The audio should start playing with zero delay if the device is not connected.
+Alternatively, if audio needs to be played on a single device then click on the audio from music list that needs to be played. The audio should start playing with no delay if the device is not connected.
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -40,12 +40,11 @@ Hence, audio files are triggered to play at the same time with accuracy and prec
 --------------------------------------------------------------------------------------------------------------
 
 ### Problem with the app:
-* The app presently is designed only for single audio file transfer, after which devices are still connected but clients are not listening to state change.
-* Although audio file are triggered to play with accuracy of milliseconds (‘mediaPlayer.start()’ being called with maximum 10ms, minimum 0 ms and an average of 2ms difference) but the start method in itself consumes a small amount of time to function which depends on device to device, thus desynchronizing the audio.
+* The app presently is designed only for single audio file transfer, after which devices are still connected but clients are not listening to the state change.
+* Although audio file is triggered to play with accuracy of milliseconds (‘mediaPlayer.start()’ being called with maximum 10ms, minimum 0 ms and an average of 2ms difference) but the start method in itself consumes a small amount of time to function which depends on device to device, thus desynchronizing the audio.
 * The app shows all devices in range with wifiP2p enabled and not just the device running this app. Also, it shows no difference between server and client device.
-* Didn’t perform test for multiple clients due to lack of devices.
                    
-To stop music and connection, the app needs to be killed. This can be done by clicking the button next to home button which shows all onPause(running in background) application and sliding the app away.
+To stop music and connection, the app needs to be killed. This can be done by clicking the button next to home button which shows all onPause(running in the background) application and sliding the app away.
 
 
 
