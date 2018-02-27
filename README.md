@@ -39,7 +39,7 @@ Hence, audio files are triggered to play at the same time with accuracy and prec
 
 --------------------------------------------------------------------------------------------------------------
 
-### Problem with the app:
+### Issues with the app:
 * The app presently is designed only for single audio file transfer, after which devices are still connected but clients are not listening to the state change.
 * Although audio file is triggered to play with accuracy of milliseconds (‘mediaPlayer.start()’ being called with maximum 10ms, minimum 0 ms and an average of 2ms difference) but the start method in itself consumes a small amount of time to function which depends on device to device, thus desynchronizing the audio.
 * The app shows all devices in range with wifiP2p enabled and not just the device running this app. Also, it shows no difference between server and client device.
