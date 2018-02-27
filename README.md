@@ -48,7 +48,7 @@ Hence, audio files are triggered to play at the same time with accuracy and prec
 To stop music and connection, the app needs to be killed. This can be done by clicking the button next to home button which shows all onPause(running in background) application and sliding the app away.
 
 <p align="center">
-<h4> The apk file is available in the repo to try out the app</h4>
- </p>
+<h4>                       The apk file is available in the repo to try out the app</h4>
+ 
                ------------------------------------------ xxx ------------------------------------------
-
+</p>
